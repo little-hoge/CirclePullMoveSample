@@ -20,7 +20,7 @@ public class PullMoveManager : MonoBehaviour, IDragHandler, IBeginDragHandler, I
     private Vector3 mouseEndPos;
 
     /// <summary> 線作成キャンセルフラグ </summary>
-    private bool cancelFlg = false;;
+    private bool cancelFlg = false;
 
     /// <summary> 物理演算コンポーネント </summary>
     [SerializeField]
