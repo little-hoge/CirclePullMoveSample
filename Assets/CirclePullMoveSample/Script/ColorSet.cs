@@ -11,7 +11,7 @@ public class ColorSet : MonoBehaviour {
         int i = 0;
         foreach (Transform childTransform in circleParent) {
             childTransform.GetComponent<Image>().color = ColorArray[i];
-            i = (i) % ColorArray.Length + 1;
+            i = (i + 1) % ColorArray.Length;
         }
     }
 
